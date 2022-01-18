@@ -8,12 +8,7 @@
 
 body {
 	background: #F0F2F5;
-	padding: 20px; /*marca el anch
-	o de la pagina y da borde a los lados*/
-/*	background: -webkit-linear-gradient(left, #615a50, #3a5154, #929aa2);/*webkit para navegadores chrome - linear-gradiente para el degradado*/*/
-/*	background: -moz-linear-gradient(left, #615a50, #3a5154, #929aa2);/*moz para navegadores mozzilla - linear-gradiente para el degradado*/*/
-/*	background: -o-linear-gradient(left, #615a50, #3a5154, #929aa2);/*o para navegadores opera - linear-gradiente para el degradado*/*/
-
+	padding: 20px; /*marca el ancho de la pagina y da borde a los lados*/
 
 }
 
@@ -94,15 +89,68 @@ border-radius: 8px;
 
 }
 
+
+
+
+
+/*CONTENT VENTA de LOTES*/
+
+.content-VentaLote{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #FFFFFF;
+	box-shadow: 1px 1px 5px 1px grey; 
+ 	
+}
+
+.content-VentaLote{
+	width: 100%;
+	margin-bottom: 10px;
+	color:  #fbfafa;
+}
+
+.content-VentaLote h2 {
+	font-family: 'Cinzel Decorative', cursive;
+	pa|
+	margin-top: 10px;
+	text-align: center;
+	padding-left: 10px;
+	color: red;
+}
+
+.content-VentaLote p{
+	font-family: 'Roboto', sans-serif;
+	margin: 10px;
+	margin-top: 10px;
+	color: #6b6b47;
+	text-align: left;
+	letter-spacing: 1px;
+	padding-bottom: 10px;
+}
+
+.VentaLote-text h2 {
+	font-family: 'Cinzel Decorative', cursive;
+	text-align: center;
+	margin-top: 10px;
+	text-align: left;
+	padding-left: 10px;
+}
+
 /**CONTENT1*/
 
 .content1{
 	width: 100%;
 	margin-top: 10px;
 	background: #FFFFFF;
-	box-shadow: 1px 1px 5px 1px grey;  
+	box-shadow: 1px 1px 1px 1px grey;  	
+}
 
-	
+.content1:hover{
+	width: 100%;
+	margin-top: 10px;
+	background: #FFFFFF;
+	box-shadow: 1px 1px 5px 1px grey;  	
 }
 
 .content1-img{
@@ -187,31 +235,38 @@ color: green;
 }
 
 .content1-button-leer {
-	width: 200px;
-	padding: 16px;
-	background: #b3c6ff;
-	border: 1px solid #1a53ff;
+	font-family: 'Roboto', sans-serif;
+	width: 150px;
+	padding: 5px;
+	background: #fd3200;
+	border: 1px solid #fd1000;
 	border-radius: 10px;
 	margin: auto;/*coloca en el centro*/
-	margin-top: 20px;
 	cursor: pointer;
+	color: white;
+	text-align: center;
 }
 
 .content1-button-leer:hover {
 
-	background: #0039e6;
+	background: #f62114;
 }
 
 
 .button-leer {
-	width: 200px;
-	padding: 16px;
-	border: 1px solid #1a53ff;
+	width: 150px;
+	padding: 5px;
+	border: 1px solid #fd1000;
 	border-radius: 10px;
 	margin: auto;/*coloca en el centro*/
 	margin-top: 40px;
-
 	cursor: pointer;
+}
+
+.button-leer a{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-align: center;
 }
 
 /*Content-lotes*/
@@ -324,6 +379,15 @@ color: green;
 	margin-bottom: 20px;
 
 }
+.item-Galeria-lotes:hover{
+	width: 100%;
+	max-width: 350px;
+	margin: auto;
+	padding: 20px;
+	margin-bottom: 20px;
+
+
+}
 
 .fot-Galeria-lotes{
 	width: 300px;
@@ -333,8 +397,11 @@ color: green;
 	display: flex;
 	margin: auto;
 
-
 }
+.fot-Galeria-lotes:hover{
+	box-shadow: 1px 2px 5px 1px grey;  	
+}
+
 
 .fot-Galeria-lotes img{
 	width: 300px;
